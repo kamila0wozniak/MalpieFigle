@@ -1,0 +1,74 @@
+.slider {
+  background-color: #929aab;
+  width:100%;
+  height: 70vh;
+  overflow:hidden;
+  position: relative;
+}
+.photo{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  vertical-align: center;
+}
+
+.viewPort {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  transition: transform 0.9s;
+}
+
+
+.prevBtn {
+  z-index: 100;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50px);
+  background-color: #ffb700;
+  color:#F4F4F4;
+  font-size:18px;
+  border: none;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  padding: 12px 21px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.prevBtn:hover {
+  padding: 13px 22px;
+  font-size:20px;
+}
+
+.nextBtn {
+  z-index: 100;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(50px);
+  background-color: #ffb700;
+  color:#F4F4F4;
+  font-size:18px;
+  border: none;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  padding: 12px 21px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.nextBtn:hover {
+  padding: 13px 22px;
+  font-size:20px;
+}

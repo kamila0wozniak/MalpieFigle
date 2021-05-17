@@ -1,0 +1,49 @@
+.myactivities {
+    width:100%;
+    background-color: #f6f6f6;
+    height:200px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.box {
+    width:80%;
+}
+
+.header {
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 25px;
+    color:#020205;
+    padding-bottom:20px;
+    margin:0;
+}
+
+.header:hover {
+    transform: scale(1.2);
+}
+
+.paragraph {
+    font-size: 18px;
+    line-height: 1.5;
+    color:#020205;
+    margin:0;
+}
+@media (max-width: 500px) {
+    .myactivities{
+        height: auto;
+        padding:10%;
+    }
+    .header{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .paragraph{
+        font-size: 12px;
+    }
+}
